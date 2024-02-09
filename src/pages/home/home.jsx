@@ -35,7 +35,7 @@ export default function Home() {
       </div>
       <div className="containe grid justify-center items-center grid-cols-[repeat(auto-fit,minmax(200px,250px))] gap-[30px] m-[25px]">
         {Object.entries(books).map(([key, book]) => (
-          <Link to={`/details/${book.id}`}>
+          <Link to={`/MSLbooks/details/${book.id}`}>
             <BookCard key={key} data={book} />
           </Link>
         ))}

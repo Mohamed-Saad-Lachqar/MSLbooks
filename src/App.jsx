@@ -17,9 +17,9 @@ function App() {
             <Navbar />
           </Headroom>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/MSLbooks/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/details/:bookid" element={<Details />} />
+            <Route path="/MSLbooks/details/:bookid" element={<Details />} />
           </Routes>
           <Footer />
         </BookContextProvider>
