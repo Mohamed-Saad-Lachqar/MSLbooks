@@ -22,5 +22,7 @@ body{
   p{
     max-width: 350px;
   }
- 
+ .wrap{
+  flex-wrap: wrap;
+ }
 }
