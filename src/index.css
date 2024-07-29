@@ -11,3 +11,16 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body{
+  overflow-x: clip ;
+}
+
+@media screen and (max-width:600px){
+  .search{
+    width: 350px;
+  }
+  p{
+    max-width: 350px;
+  }
+ 
+}

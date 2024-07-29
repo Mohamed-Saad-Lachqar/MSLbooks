@@ -14,11 +14,11 @@ export default function Navbar() {
           </div>
         </NavLink>
 
-        <ul>
-          <li className="inline-block m-5 text-[#ddd] font-semibold relative	">
+        <ul className="flex">
+          <li className=" m-5 text-[#ddd] font-semibold relative	">
             <NavLink exact to="/MSLbooks/">home</NavLink>
           </li>
-          <li className="inline-block m-5 text-[#ddd] font-semibold relative	">
+          <li className=" m-5 text-[#ddd] font-semibold relative	">
             <NavLink exact to="/about">about</NavLink>
           </li>
         </ul>

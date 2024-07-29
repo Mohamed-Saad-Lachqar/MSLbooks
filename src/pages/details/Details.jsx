@@ -17,7 +17,7 @@ export default function Details() {
     image_url,
   } = book;
   return (
-    <div className="containe min-h-[95vh] w-full flex justify-center items-center py-[20px]">
+    <div className="containe min-h-[95vh] flex-wrap w-full flex justify-center items-center py-[20px]">
       <img className="w-[300px] h-[450px]" src={image_url} alt="#" />
 
       <div className="w-[700px] m-[30px]">
